@@ -19,7 +19,8 @@ public class Main {
         while (!isEmpty) {
             try {
                 String str = textEnter(sc);
-                System.out.println("Введённая строка не является пустой");
+                System.out.println("Введённая строка не является пустой:");
+                System.out.println(str);
                 isEmpty = true;
             } catch (StringIndexOutOfBoundsException e) {
                 System.out.println(e.getMessage());
