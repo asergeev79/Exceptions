@@ -1,7 +1,5 @@
 package Exceptions.Seminar_02.Task_03;
 
-import java.io.FileNotFoundException;
-
 public class Main {
     /*
      * public static void main(String[] args) throws Exception {
